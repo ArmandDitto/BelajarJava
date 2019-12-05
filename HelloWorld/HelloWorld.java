@@ -9,14 +9,15 @@ public class HelloWorld{
         Honda.merk = "Honda Civiv";
         Honda.maju();
         
-        System.out.println(args[0]+args[1]);
+        System.out.println(args[1]+args[2]);
     }
     
 }
 
 class mobil{
+    //Atribut
     public String merk;
-
+    //Method
     public void maju(){
         System.out.println("Mobil "+this.merk+" maju GOOO");
     }
