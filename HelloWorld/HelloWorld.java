@@ -8,6 +8,8 @@ public class HelloWorld{
         mobil Honda = new mobil();
         Honda.merk = "Honda Civiv";
         Honda.maju();
+        
+        System.out.println(args[0]+args[1]);
     }
     
 }
