@@ -4,6 +4,10 @@ public class HelloWorld{
         mobil Toyota = new mobil();
         Toyota.merk = "Toyota Kijang";
         Toyota.maju();
+
+        mobil Honda = new mobil();
+        Honda.merk = "Honda Civiv";
+        Honda.maju();
     }
     
 }
