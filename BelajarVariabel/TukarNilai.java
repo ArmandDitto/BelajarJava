@@ -10,5 +10,15 @@ public class TukarNilai{
 
         System.out.println ("A isinya " +A);
         System.out.println ("B isinya " +B);
+
+        int x = 1;
+        int y = 2;
+
+        x=x+y;
+        y=x-y;
+        x=x-y;
+
+        System.out.println ("X isinya "+x);
+        System.out.println ("Y isinya "+y);
     }
 }
